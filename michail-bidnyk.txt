@@ -72,4 +72,16 @@ As often as possible without being inefficient
 36. What is the command we would use to push our repo up to github?
 push -m "" 
 37. Walk me through Lambda's git flow.
-Fork a repo,add TL as collaborator, clone a repo, create a branch, make changes add/commit, push to origin/branch, on github compare and pull request from your fork to your master, add TL as reviewr
+Fork a repo,add TL as collaborator, clone a repo, create a branch, make changes add/commit, push to origin/branch, on github compare and pull request from your fork to your master, add TL as reviewer
+
+Stretch Review questions:
+1. What is the difference between an inline element and a block element?
+Inline elements do not cause a line break and does not take up full width of a page while block elements do. Block elements can take one or more lines while inline only takes up space between opening/closing tags 
+2. What happens when an element is positioned absolutely? 
+The element sits on its own layer seperate from normal page layout. It's position is relative to the parents position
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+Use an inline and then specify the width 
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default 
+Display block: div, p, section. Display inline-block: span, a (anchor). Display inline block: button 
+5. In your own words, explain the box model. What is the fix for the box model?
+Viewing CSS in terms of boxes and depending if there inline or block these boxes fill up a certain amount of space. There are different layers to the boxes starting from the content and moving out to the margin box. A fix for the box model is the box-sizing property.
