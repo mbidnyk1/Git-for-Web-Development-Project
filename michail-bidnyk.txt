@@ -1,0 +1,87 @@
+https://codepen.io/mbidnyk/pen/BaNNrYo?editors=1100
+
+1. What is Semantic HTML?
+HTML that gives meaning to the content on the  webpage that you markup. 
+2. What is HTML used for?
+HTML gives structure to the content of a webpage. 
+3. What is an attribute and where do we put it?
+An attribute provides additional information about an element. Put in the start tag. 
+4. What is the h1 tag used for? How many times should I use it on a page?
+h1 is used for title of a page. Should only be used once.
+5. Name two tags that have required attributes
+input and select
+6. What do we put in the head of our HTML document?
+Title, author, keywords of the document 
+7. What is an id?
+A unique attribute that identifies an element 
+8. What elements can I add an id to?
+Any html element that don't have an id 
+9. How many times can I use the same id on a page?
+Once 
+10. What is a class?
+An attribute that can be used to identify one or more elements 
+11. What elements can I add a class to? 
+Any html elements
+12. How many times can I use the same class on a page?
+Multiple times 
+13. How do I get my link to open in a new tab?
+target="_blank"
+14. What is the alt attribute used for?
+Specifies an alternate text for an image 
+15. How do I reference an id?
+#
+16. What is the difference between a section and a div
+Section is semantic and a div is presentational
+17. What is CSS used for?
+Describe the presentation of a web page 
+18. How to we select an element? Example - every h2 on the page
+Type the element name followed by brackets
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+The same class can be used on multiple elements while a specific id can only be used for one element. I can use a unique id for individual anchor tags and the same class for multiple section tags
+20. How do we select classes in CSS?
+.(dot)
+21. How do we select a p element with a single class of “human””?
+p.human
+22. What is a parent child selector? When would this be useful?
+A selector nested in another selector. This is useful when you want certain attributes to cascade down to the child selector 
+23. How do you select all links within a div with the class of sidebar?
+div.sidebar:link
+24. What is a pseudo selector?
+A keyword added to a selector that gives the element a special state
+25. What do we use the change the spacing between lines?
+line-height:
+26. What do we use to change the spacing between letters?
+letter-spacing:
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform:capitalize,lowercase,uppercase
+28. How do I add a 1px border around my div that is dotted and black?
+border:1px dotted black;
+29. How do I select everything on the page? * wildcard 
+30. How do I write a comment in CSS?
+/* */
+31. How do I find out what file I am in, when I am using the command line?
+prompt on left side or pwd command 
+32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm. Be carful because there is no warning before the file is deleted
+34. Why should I use version control?
+To keep track of changes made to files and allows you to go back to previous file versions 
+35. How often should I commit to github?
+As often as possible without being inefficient
+36. What is the command we would use to push our repo up to github?
+push -m "" 
+37. Walk me through Lambda's git flow.
+Fork a repo,add TL as collaborator, clone a repo, create a branch, make changes add/commit, push to origin/branch, on github compare and pull request from your fork to your master, add TL as reviewer
+
+Stretch Review questions:
+1. What is the difference between an inline element and a block element?
+Inline elements do not cause a line break and does not take up full width of a page while block elements do. Block elements can take one or more lines while inline only takes up space between opening/closing tags 
+2. What happens when an element is positioned absolutely? 
+The element sits on its own layer seperate from normal page layout. It's position is relative to the parents position
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+Use an inline and then specify the width 
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default 
+Display block: div, p, section. Display inline-block: span, a (anchor). Display inline block: button 
+5. In your own words, explain the box model. What is the fix for the box model?
+Viewing CSS in terms of boxes and depending if there inline or block these boxes fill up a certain amount of space. There are different layers to the boxes starting from the content and moving out to the margin box. A fix for the box model is the box-sizing property.
